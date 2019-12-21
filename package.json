@@ -1,0 +1,31 @@
+{
+  "name": "eat-the-burger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "install": "^0.13.0",
+    "mysql": "^2.17.1",
+    "nodemon": "^2.0.2",
+    "npm": "^6.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmosismediainc/eat-burgers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osmosismediainc/eat-sushi/issues"
+  },
+  "homepage": "https://github.com/osmosismediainc/eat-sushi#readme"
+}
